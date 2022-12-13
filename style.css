@@ -14,6 +14,7 @@ html {
 
 body {
     min-height: 100%;
+    padding: 0 6rem 0 6rem;
 }
 
 img {
@@ -31,4 +32,24 @@ ul li {
 
 strong {
     display: block
+}
+
+header {
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
