@@ -13,21 +13,12 @@ html {
 }
 
 body {
-    border: 2px solid blue;
     min-height: 100%;
-}
-
-img {
-    max-width: 100%;
 }
 
 ul li {
     padding: 0;
     margin: 0;
-}
-
-.img-one {
-    border: 1px solid red;
 }
 
 strong {
@@ -36,11 +27,13 @@ strong {
 
 /* Complete header section */
 header {
-    border: 1px solid red;
+    background-color: #1f2937;
+    color: white;
 }
 
 /* Nav bar */
 nav {
+    padding: 2rem 2rem 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,25 +42,45 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav ul li a {
+    color: white;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #3882f6;
 }
 
 .subsection-two {
     display: flex;
-    padding: 3.5rem 0 3.5rem 0;
+    padding: 10rem 26rem 10rem 26rem;
+    align-items: center;
 }
 
-.subsection-two > * {
+.subsection-two button {
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    margin: 0.4rem 0;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.img-one {
+    width: 500px;
+    height: 350px;
+    border-radius: 1.5rem;
+}
+
+.subsection-two > *{
     flex: 1;
 }
 
 /* Second section */
 section:nth-of-type(1) {
-    border: 1px solid red;
 }
 
 .subsection-three {
@@ -83,7 +96,6 @@ section:nth-of-type(1) {
 /* Third section */
 section:nth-of-type(2) {
     padding: 5.06rem 0 5.06rem 0;
-    border: 1px solid red;
 }
 
 blockquote p {
@@ -94,14 +106,12 @@ blockquote p {
 /* Fourth section */
 section:nth-of-type(3) {
     display: flex;
-    border: 1px solid red;
     align-items: center;
     justify-content: space-evenly;
 }
 
 /* Footer Section */
 footer {
-    border: 1px solid red;
     display: flex;
     padding: 3rem 0 3rem 0;
     justify-content: center;
