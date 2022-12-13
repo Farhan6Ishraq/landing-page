@@ -80,6 +80,11 @@ nav ul li a:hover {
     border: none;
 }
 
+.subsection-two button:hover {
+    color: #3882f6;
+    background-color: white;
+}
+
 .img-one {
     width: 500px;
     height: 350px;
@@ -128,9 +133,33 @@ blockquote p {
 
 /* Fourth section */
 section:nth-of-type(3) {
+    border: 1px solid red;
+    padding: 5rem 26rem 5rem 26rem;
+    color: white;
+}
+
+.subsection-six-seven {
     display: flex;
+    background-color: #3882f6;
+    border-radius: 1rem;
+    padding: 3rem 3rem;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
+
+}
+
+.subsection-seven button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+
+.subsection-seven button:hover {
+    color: #3882f6;
+    background-color: white;
 }
 
 /* Footer Section */
